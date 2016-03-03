@@ -1,0 +1,16 @@
+<div style="display:none;">
+<!----------------- 선물 보기 팝업 ----------------->
+<div id="gift_popup" style="background:white">
+  <a href="#" onclick="$.colorbox.close();return false;">닫기</a><br />
+  선물보기 팝업
+</div>
+<!----------------- 선물 보기 팝업 ----------------->
+
+<!----------------- 참여 방법 팝업 ----------------->
+<div id="use_popup" style="background:white">
+  <a href="#" onclick="$.colorbox.close();return false;">닫기</a><br />
+  참여방법 팝업
+</div>
+<!----------------- 참여 방법 팝업 ----------------->
+
+</div>

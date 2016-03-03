@@ -1,0 +1,26 @@
+<?
+	include_once   "./header.belif";
+?>
+<body>
+  <h1>빌리의 봄 소품 at London</h1>
+  <a href="game.belif">빌리프 봄 3총사 찾기</a><br />
+  <a href="#" onclick="open_pop('gift_popup');return false;">선물보기</a><br />
+  <a href="#" onclick="open_pop('use_popup');return false;">참여방법</a><br />
+<?
+	include_once   "./popup_div.belif";
+?>
+</body>
+</html>
+<script type="text/javascript">
+$(document).ready(function() {
+	$("#cboxTopLeft").hide();
+	$("#cboxTopRight").hide();
+	$("#cboxBottomLeft").hide();
+	$("#cboxBottomRight").hide();
+	$("#cboxMiddleLeft").hide();
+	$("#cboxMiddleRight").hide();
+	$("#cboxTopCenter").hide();
+	$("#cboxBottomCenter").hide();
+});
+
+</script>
