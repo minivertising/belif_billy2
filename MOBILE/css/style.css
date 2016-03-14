@@ -95,14 +95,13 @@ body{
 	margin-top:0;
 }
 .sec_sub_img .close{
-	position:absolute;
-	top:3%;
-	width:98%;
-	text-align:right;
+	width: 99%;
+    text-align: right;
+    margin-top: 0;
 }
 .sec_sub_img .thanks{
-	position:absolute;
-	bottom:8%;  
+	    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .sec_sub_coupon{
@@ -140,9 +139,9 @@ body{
 	}
 
 .sec_sub_img .game{
-	position:absolute;
-	top:3%;
-	width:100%;
+	width: 100%;
+    margin-top: -20px;
+    padding-bottom: 50px;
 }
 .sec_sub_img .game .inner_game{
 	width:96%;
@@ -247,9 +246,9 @@ body{
 
 
 .sec_sub_img .input_info{
-	position:absolute;
-	top:40%;
 	width:100%; 
+	padding-top: 80px;
+    padding-bottom: 80px;
 }
 .sec_sub_img .input_info .inner_input_info{
 	position:relative;
@@ -270,14 +269,24 @@ body{
 	width:50%;
 }
 .sec_sub_img .input_info .inner_input_info .input input{
-	border:none;
-	font-size:12px;
-	font-weight:bold;
-	color:#000;
-	height:17px;  
-	padding:3px 3px 0; 
-	width:82%;
-	background:none;
+	
+	background: #fff;
+    border: #000 solid 2px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+    height: 16px;
+    padding:3px 3px 0; 
+    width:80%;
+}
+.sec_sub_img .input_info .inner_input_info .txt_detail {
+    bottom: 23%;
+    left: 20%;
+    position: absolute;
+    width: 60%;
+    font-size: 11px;
+    letter-spacing: -1px;
+    color: #000;
 }
 
 .sec_sub_img .input_info .inner_input_info .select_area{
@@ -296,10 +305,10 @@ body{
 
 .sec_sub_img .input_info .inner_input_info .select_area select,
 .sec_sub_img .input_info .inner_input_info .select_store select{
-	width:85%;
-	height:23px; 
-	border:none;
-	background:none;
+	width:86%;
+	height: 23px;
+    background: #fff;
+    border: #000 solid 2px
 }
 
 
@@ -1059,6 +1068,74 @@ body{
 .coupon_img,
 .coupon_img img{
 	width:100%;
+}
+
+
+.wrap_game_bg{
+	width:100%;
+	background:url(../images/bg_1.jpg) no-repeat 0 420px;
+	background-size:contain;
+}
+.sec_sub_img{
+	width:100%;
+	position:relative;
+	margin-top:0;
+	background:url(../images/bg_2.jpg) no-repeat 0 865px;
+	background-size:contain;
+}
+@media screen and (min-device-width: 321px) and (max-device-width: 375px) {
+	.wrap_game_bg{
+		background:url(../images/bg_1.jpg) no-repeat 0 500px;
+		background-size:contain;
+	}
+	.sec_sub_img{
+		background:url(../images/bg_2.jpg) no-repeat 0 1000px;
+		background-size:contain;
+	}
+}
+@media screen and (min-device-height: 300px) and (max-device-height: 480px) {
+	.wrap_game_bg{
+		background:url(../images/bg_1.jpg) no-repeat 0 390px;
+		background-size:contain;
+	}
+	.sec_sub_img{
+		background:url(../images/bg_2.jpg) no-repeat 0 840px;
+		background-size:contain;
+	}
+}
+@media screen and (min-device-height: 500px) and (max-device-height: 568px) {
+	.wrap_game_bg{
+		background:url(../images/bg_1.jpg) no-repeat 0 410px;
+		background-size:contain;
+	}
+	.sec_sub_img{
+		background:url(../images/bg_2.jpg) no-repeat 0 860px;
+		background-size:contain;
+	}
+}
+@media screen and (min-device-height: 569px) and (max-device-height: 640px) {
+	.wrap_game_bg{
+		background:url(../images/bg_1.jpg) no-repeat 0 480px;
+		background-size:contain;
+	}
+	.sec_sub_img{
+		background:url(../images/bg_2.jpg) no-repeat 0 980px;
+		background-size:contain;
+	}
+}
+
+@media screen and (min-device-width: 376px) and (max-device-width: 414px) {
+	.wrap_game_bg{
+		background:url(../images/bg_1.jpg) no-repeat 0 560px;
+		background-size:contain;
+	}
+	.sec_sub_img{
+		background:url(../images/bg_2.jpg) no-repeat 0 1120px;
+		background-size:contain;
+	}
+	.sec_sub_img .game{
+		padding-bottom:60px;
+	}
 }
 
 
